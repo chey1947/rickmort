@@ -1,0 +1,53 @@
+#headcontainet {
+    font-size: 14px;
+}
+#container-color {
+    background-color: #000000;;
+}
+#container-row {
+    background-color: #000000;
+    position: relative;
+}
+.textalign {
+    text-align: left;
+    
+}
+.boxbg {
+    background-color: #242323;
+    color: #ffffff; 
+    min-height: 250px;
+}
+.box-align {
+    padding: 10px;
+}
+.box-border {
+    position: relative;
+    padding: 5px 0  ;
+
+}
+.box-border:before  {
+    content : "";
+    position: absolute;
+    left    : 15px;
+    bottom  : 0;
+    height  : 1px;
+    width   : 70%;  
+    border-bottom:1px solid rgb(145, 129, 145); 
+
+}
+#container-data {
+    padding: 0px 0px;
+}
+.lightbox {
+    background: rgb(81, 85, 81, 0.8);
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    left: 33px;
+    color:#ffffff;
+    text-align: left;
+}
+.namestyle {
+    font-size: 16px;
+}
